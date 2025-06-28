@@ -15,6 +15,8 @@ def fetch_actual_metadata(video_url):
             "quiet": True,
             "skip_download": True,
             "extract_flat": True,
+            "postprocessors": [],
+            "format": "bestaudio/best",
         }
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(video_url, download=False)
