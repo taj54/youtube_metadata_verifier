@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yt-metadata-verifier"
-version = "1.0.1"
+version = "1.0.2"
 description = "CLI tool to fetch and verify YouTube video metadata"
 authors = ["Taj <tajulislamj200@gmail.com>"]
 readme = "README.md"
