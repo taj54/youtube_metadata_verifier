@@ -2,6 +2,11 @@
 
 A lightweight Python CLI tool to **verify and correct YouTube video metadata**, such as title and channel information. Useful for digital archiving, content validation, or simply cleaning up saved URLs.
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/yt-metadata-verifier)
+![PyPI - License](https://img.shields.io/pypi/l/yt-metadata-verifier)
+![PyPI - Version](https://img.shields.io/pypi/v/yt-metadata-verifier)
+
+
 ---
 
 ## ✨ Features

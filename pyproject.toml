@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "yt-metadata-verifier"
-version = "1.0.0"
+version = "1.0.1"
 description = "CLI tool to fetch and verify YouTube video metadata"
 authors = ["Taj <tajulislamj200@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/taj54"
+repository = "https://github.com/taj54/youtube_metadata_verifier"
 packages = [{ include = "yt_metadata_verifier", from = "src" }]
 
 
@@ -16,7 +20,7 @@ yt-verify = "yt_metadata_verifier.cli:main"
 
 [tool.pyright]
 useLibraryCodeForTypes = true
-exclude = [".cache"]
+exclude = [".cache","dist"]
 
 
 [tool.ruff]
